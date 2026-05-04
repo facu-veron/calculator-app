@@ -26,6 +26,14 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-navigation-bar",
+        {
+          "enforceContrast": true,
+          "barStyle": "light",
+          "visibility": "visible"
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
